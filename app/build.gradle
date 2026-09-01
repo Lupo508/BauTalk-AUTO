@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'eu.bautalk.live'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'eu.bautalk.live'
+        minSdk 23
+        targetSdk 35
+        versionCode 2
+        versionName '2.0-auto'
+    }
+}
